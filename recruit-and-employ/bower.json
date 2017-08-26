@@ -1,0 +1,24 @@
+{
+  "name": "webapp",
+  "authors": [
+    "superestze"
+  ],
+  "description": "angular js webapp",
+  "main": "",
+  "keywords": [
+    "angular",
+    "js"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "ui-router#^0.4.2"
+  }
+}

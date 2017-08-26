@@ -1,0 +1,49 @@
+.login{
+        background-image: url(../image/background.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: fixed;
+        left:0;
+        top:0;
+        right:0;
+        bottom:0;
+        form {
+                .mt(260);
+                input{
+                      margin-left: auto;
+                      margin-right: auto;
+                     .w(300);
+                     .h(40);
+                     border-width: 0;
+                     color:@defaultColor;
+                     outline-width:0;
+                     &::placeholder{
+                             color: @defaultColor;
+                     }
+                     background-color: @formBgColor;
+                     &:first-child {
+                             border-bottom: 1px solid @defaultColor;
+                     }
+                }
+                button{
+                        .w(300);
+                        .h(35);
+                                font-weight:bold;
+                                 font-size:22px;
+                        &.login-btn{
+                                margin-top:75px;
+                                background-color: @headBgColor;
+                                color: @defaultColor;
+                               
+
+                        }
+                        &.register-btn{
+                                margin-top:20px;
+                                background-color: @btnBgColor;
+                                color: @headBgColor;
+                                border: 1px solid @headBgColor;
+                        }
+                }
+
+        }
+}
